@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{608FD73D-FDEF-4502-8B92-8502B8755186}|">
+  <MonoDevelop.Ide.ItemProperties.PTC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PTC/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="PTC/Controllers/HomeController.cs" Line="5" Column="22" />
+      <File FileName="PTCData/TrainingProductManager.cs" Line="9" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PTC" expanded="True">
+            <Node name="PTCData" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

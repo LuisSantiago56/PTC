@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTC", "PTC\PTC.csproj", "{608FD73D-FDEF-4502-8B92-8502B8755186}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTCData", "PTCData\PTCData.csproj", "{A740580F-CDF0-44EA-87E4-D38E1101391D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{608FD73D-FDEF-4502-8B92-8502B8755186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{608FD73D-FDEF-4502-8B92-8502B8755186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{608FD73D-FDEF-4502-8B92-8502B8755186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{608FD73D-FDEF-4502-8B92-8502B8755186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A740580F-CDF0-44EA-87E4-D38E1101391D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A740580F-CDF0-44EA-87E4-D38E1101391D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A740580F-CDF0-44EA-87E4-D38E1101391D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A740580F-CDF0-44EA-87E4-D38E1101391D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63A176DE-85B6-4ADF-B7D3-D4D2AC083A98}
+	EndGlobalSection
+EndGlobal

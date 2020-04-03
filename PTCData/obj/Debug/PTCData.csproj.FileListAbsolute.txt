@@ -1,0 +1,1 @@
+\\Mac\Home\Documents\Visual Studio 2019\PTC\PTCData\obj\Debug\PTCData.csprojAssemblyReference.cache
