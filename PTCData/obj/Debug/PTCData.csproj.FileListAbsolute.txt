@@ -1,1 +1,9 @@
-\\Mac\Home\Documents\Visual Studio 2019\PTC\PTCData\obj\Debug\PTCData.csprojAssemblyReference.cache
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCData\bin\Debug\PTCData.dll
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCData\bin\Debug\PTCData.pdb
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCData\obj\Debug\PTCData.csprojAssemblyReference.cache
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCData\obj\Debug\PTCData.csproj.CoreCompileInputs.cache
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCData\obj\Debug\PTCData.dll
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCData\obj\Debug\PTCData.pdb
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCData\bin\Debug\PTCCommon.dll
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCData\bin\Debug\PTCCommon.pdb
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCData\obj\Debug\PTCData.csproj.CopyComplete

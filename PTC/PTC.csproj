@@ -162,12 +162,6 @@
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PTCData\PTCData.csproj">
-      <Project>{a740580f-cdf0-44ea-87e4-d38e1101391d}</Project>
-      <Name>PTCData</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -179,6 +173,16 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PTCCommon\PTCCommon.csproj">
+      <Project>{f6a84c34-69fb-493b-a641-c6d52fe9a9d9}</Project>
+      <Name>PTCCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PTCData\PTCData.csproj">
+      <Project>{8D9FC672-F9CF-4BFD-BD11-E1AE7DED471E}</Project>
+      <Name>PTCData</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

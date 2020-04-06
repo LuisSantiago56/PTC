@@ -3,27 +3,40 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using PTCData;
+
 namespace PTC.Controllers
 {
     public class HomeController : Controller
     {
         public ActionResult Index()
         {
-            return View();
+            TrainingProductViewModel vm = new TrainingProductViewModel();
+
+            vm.HandleRequest();
+
+            return View(vm);
         }
 
-        public ActionResult About()
+        [HttpPost]
+        public ActionResult Index(TrainingProductViewModel vm)
         {
-            ViewBag.Message = "Your application description page.";
+            vm.IsValid = ModelState.IsValid;
+            vm.HandleRequest();
 
-            return View();
-        }
+            if (vm.IsValid)
+            {
+                ModelState.Clear();
+            }
+            else
+            {
+                foreach(KeyValuePair<string, string> item in vm.ValidationErrors)
+                {
+                    ModelState.AddModelError(item.Key, item.Value);
+                }
+            }
 
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
+            return View(vm);
         }
     }
 }

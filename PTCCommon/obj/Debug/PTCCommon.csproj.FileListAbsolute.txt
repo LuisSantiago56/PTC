@@ -1,0 +1,6 @@
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCCommon\bin\Debug\PTCCommon.dll
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCCommon\bin\Debug\PTCCommon.pdb
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCCommon\obj\Debug\PTCCommon.csprojAssemblyReference.cache
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCCommon\obj\Debug\PTCCommon.csproj.CoreCompileInputs.cache
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCCommon\obj\Debug\PTCCommon.dll
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCCommon\obj\Debug\PTCCommon.pdb
