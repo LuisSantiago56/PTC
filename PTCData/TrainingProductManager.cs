@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PTCData.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,9 +11,12 @@ namespace PTCData
     {
         public List<KeyValuePair<string, string>> ValidationErrors { get; set; }
 
+        private readonly SqlTrainingProductsData sqlTP;
+
         public TrainingProductManager()
         {
             ValidationErrors = new List<KeyValuePair<string, string>>();
+            sqlTP = new SqlTrainingProductsData();
         }
 
         public bool Validate(TrainingProduct entity)
@@ -33,7 +37,7 @@ namespace PTCData
         public bool Delete(TrainingProduct entity)
         {
             //TODO: Create DELETE code here
-
+            sqlTP.Delete(entity.ProductId);
             return true;
         }
 
@@ -43,9 +47,10 @@ namespace PTCData
             TrainingProduct ret = new TrainingProduct();
 
             //TODO: Call your data acces method here
-            list = CreateMockData();
+            //list = CreateMockData();
+            //ret = list.Find(p => p.ProductId == productId);
 
-            ret = list.Find(p => p.ProductId == productId);
+            ret = sqlTP.Get(productId);
 
             return ret;
         }
@@ -58,6 +63,7 @@ namespace PTCData
             if(ret)
             {
                 //TODO: Create UPDATE code here
+                sqlTP.Update(entity);
             }
 
             return ret;
@@ -71,6 +77,7 @@ namespace PTCData
             if(ret)
             {
                 //TODO: Create Insert code here
+                sqlTP.Add(entity);
             }
 
             return ret;
@@ -81,13 +88,21 @@ namespace PTCData
             List<TrainingProduct> ret = new List<TrainingProduct>();
 
             //TODO: Add your data access method here
-            ret = CreateMockData();
-
-            if(!string.IsNullOrEmpty(entity.ProductName))
+            //ret = CreateMockData();
+            
+            IEnumerable<TrainingProduct> toList = sqlTP.GetAll().ToList();
+            if(toList != null && toList.Any())
             {
-                ret = ret.FindAll(p => p.ProductName.ToLower().StartsWith(entity.ProductName, StringComparison.CurrentCultureIgnoreCase));
+                ret = toList.ToList();
+                if (ret.Count > 0)
+                {
+                    if (!string.IsNullOrEmpty(entity.ProductName))
+                    {
+                        ret = ret.FindAll(p => p.ProductName.ToLower().StartsWith(entity.ProductName, StringComparison.CurrentCultureIgnoreCase));
+                    }
+                }
             }
-
+            
             return ret;
         }
         private List<TrainingProduct> CreateMockData()

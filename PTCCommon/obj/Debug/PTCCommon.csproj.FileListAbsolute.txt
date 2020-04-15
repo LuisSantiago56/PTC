@@ -4,3 +4,9 @@ C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCCommon\obj\Debug
 C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCCommon\obj\Debug\PTCCommon.csproj.CoreCompileInputs.cache
 C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCCommon\obj\Debug\PTCCommon.dll
 C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCCommon\obj\Debug\PTCCommon.pdb
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCCommon\bin\Debug\PTCCommon.dll.config
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCCommon\bin\Debug\EntityFramework.dll
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCCommon\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCCommon\bin\Debug\EntityFramework.xml
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCCommon\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCCommon\obj\Debug\PTCCommon.csproj.CopyComplete

@@ -159,3 +159,13 @@ C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTC\bin\PTCData.dll
 C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTC\bin\PTCData.pdb
 C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTC\bin\PTCCommon.dll
 C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTC\bin\PTCCommon.pdb
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTC\bin\EntityFramework.dll
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTC\bin\EntityFramework.SqlServer.dll
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTC\bin\PTCCommon.dll.config
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTC\bin\EntityFramework.xml
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTC\bin\EntityFramework.SqlServer.xml
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTC\bin\PTCData.dll.config
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTC\bin\Autofac.dll
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTC\bin\Autofac.Integration.Mvc.dll
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTC\bin\Autofac.xml
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTC\bin\Autofac.Integration.Mvc.xml

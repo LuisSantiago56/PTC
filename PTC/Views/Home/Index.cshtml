@@ -125,26 +125,26 @@
                 <tbody>
                     @foreach (var item in Model.Products)
                     {
-                    <tr>
-                        <td class="pdsa-action-button-column">
-                            <a href="#" data-pdsa-action="edit"
-                               data-pdsa-val="@item.ProductId" class="btn btn-default btn-sm">
-                                <i class="glyphicon glyphicon-edit"
-                            </a>
-                        </td>
-                        <td>@item.ProductName</td>
-                        <td>@item.IntroductionDate</td>
-                        <td>@item.Url</td>
-                        <td>@item.Price.ToString("c")</td>
-                        <td class="pdsa-action-button-column">
-                            <a href="#" data-pdsa-action="delete"
-                               data-pdsa-val="@item.ProductId"
-                               onclick="return confirm('Delete this product?');"
-                               class="btn btn-default btn-sm">
-                                <i class="glyphicon glyphicon-trash"
-                            </a>
-                        </td>
-                    </tr>
+                        <tr>
+                            <td class="pdsa-action-button-column">
+                                <a href="#" data-pdsa-action="edit"
+                                   data-pdsa-val="@item.ProductId" class="btn btn-default btn-sm">
+                                    <i class="glyphicon glyphicon-edit"
+                                </a>
+                            </td>
+                            <td>@item.ProductName</td>
+                            <td>@item.IntroductionDate</td>
+                            <td>@item.Url</td>
+                            <td>@item.Price.ToString("c")</td>
+                            <td class="pdsa-action-button-column">
+                                <a href="#" data-pdsa-action="delete"
+                                   data-pdsa-val="@item.ProductId"
+                                   onclick="return confirm('Delete this product?');"
+                                   class="btn btn-default btn-sm">
+                                    <i class="glyphicon glyphicon-trash"
+                                </a>
+                            </td>
+                        </tr>
                     }
                 </tbody>
             </table>

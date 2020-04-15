@@ -7,3 +7,9 @@ C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCData\obj\Debug\P
 C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCData\bin\Debug\PTCCommon.dll
 C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCData\bin\Debug\PTCCommon.pdb
 C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCData\obj\Debug\PTCData.csproj.CopyComplete
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCData\bin\Debug\PTCData.dll.config
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCData\bin\Debug\EntityFramework.dll
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCData\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCData\bin\Debug\PTCCommon.dll.config
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCData\bin\Debug\EntityFramework.xml
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\PTC\PTCData\bin\Debug\EntityFramework.SqlServer.xml

@@ -26,7 +26,10 @@ namespace PTC.Controllers
 
             if (vm.IsValid)
             {
-                ModelState.Clear();
+                if(vm.EventCommander.ToLower() != "edit")
+                {
+                    ModelState.Clear();
+                }
             }
             else
             {
